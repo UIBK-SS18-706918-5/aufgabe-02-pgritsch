@@ -6,6 +6,7 @@ int main(int argc, char ** argv) {
 
 	if(argc == 4){
 	//if a and b and c are not empty do calc
+
 	
 	// Einlesen der Seitenlängen
 	a = atof(argv[1]);
