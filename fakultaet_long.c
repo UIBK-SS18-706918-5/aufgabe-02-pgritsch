@@ -16,7 +16,7 @@ int main(int argc, char ** argv) {
 	} else {
 		//while loop for factorial
 		while(i <= a){
-			b = i*b;
+			b *= i;
 			i++;
 		}
 	printf("The factorial of %i is %ld\n",a,b);
