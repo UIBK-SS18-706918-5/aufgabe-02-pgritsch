@@ -15,14 +15,14 @@ int main(int argc, char ** argv) {
 
 		while(i<=n){
 			//factorial
-			factorial = i * factorial;		
+			factorial *= i;		
 
 			//powerseries
 			while(j<=i){
-				xcalc = xcalc*xval;
+				xcalc *= xval;
 			j++;
 			}
-		result=result + xcalc/factorial;
+		result += xcalc/factorial;
 		i++;
 		}
 	printf("exp(%Lf)=%Lf\n",xval,result);
