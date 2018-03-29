@@ -27,4 +27,4 @@ int main(int argc, char ** argv) {
 	return 0;
 }
 
-//the computer does calculate the factorial corectly until 13
+//the computer does calculate the factorial correctly until 12!
